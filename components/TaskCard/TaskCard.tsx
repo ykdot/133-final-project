@@ -13,7 +13,7 @@ function convertTaskPriorityToText(priority: TaskPriority) {
 export default function TaskCard({ task }: { task: TaskObject }) {
   const textPriorty = convertTaskPriorityToText(task.priority);
   return (
-    <li className="flex justify-between p-5 border-t-2 border-x-2 border-solid">
+    <li className="flex justify-between p-5 border-t-2 border-x-2 border-solid hover:bg-slate-300">
       <p className="w-3/5">{task.taskName}</p>
       <p className="w-1/5">{task.date}</p>
       <p className="w-1/5">{textPriorty}</p>
