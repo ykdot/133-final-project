@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## College Digital Assistant
 
-First, run the development server:
+College Digitial Assistant is a digital assistant web app where it is designed to help students track their daily, weekly and monthly tasks and stay organized during their academic year. The assistant aids in managing class assignments, extracurricular commitments, note-taking, and organizing events.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Core Features
+1. Responsive Design: This project uses Next JS to create HTML and CSS that makes the app look and function well on different screen size. 
+2. User interaction: This project supports user inputs where users can add/edit/delete tasks on the tasklist page. For each task, there is a task name, date and time, task priority, and the label of the task. 
+3. Data persistence: We used the local storage on the browser to maintain data with any actions like refreshing the page, and used React context to update the UI and local storage whenever tasks are added, deleted, or edited.  
+4. API: We used the ZenQuotes.io API to fetch quote information to display in the task-list page.
 
+## Run the Web Project
+
+Fork this github repository
+Go to the web project folder
+Run the command 'npm install' to install any dependencies
+Run the command 'npm run dev'
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
