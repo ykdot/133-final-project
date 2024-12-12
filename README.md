@@ -11,8 +11,8 @@ College Digitial Assistant is a digital assistant web app where it is designed t
 
 ## Run the Web Project
 
-Fork this github repository
-Go to the web project folder
-Run the command 'npm install' to install any dependencies
-Run the command 'npm run dev'
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Fork this github repository
+2. Go to the web project folder
+3. Run the command 'npm install' to install any dependencies
+4. Run the command 'npm run dev'
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
