@@ -11,7 +11,6 @@ export const metadata: Metadata = {
 export default function NotesPage() {
   return (
     <>
-      {/* @ts-expect-error Async Server Component */}
       <QuoteContainer />
       <NoteContextProvider>
         <NotePageStructure />

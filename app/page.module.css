@@ -1,0 +1,10 @@
+.button-list {
+  display: flex;
+  gap: 0.75rem;
+}
+
+@media (max-width: 850px) {
+  .button-list {
+    flex-direction: column;
+  }
+}
