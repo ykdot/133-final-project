@@ -9,9 +9,9 @@ export const metadata: Metadata = {
 // show quote on top and task-list in middle
 export default function TaskPage() {
   return (
-    <>
+    <div className="z-10">
       <QuoteContainer />
       <TaskPageStructure />
-    </>
+    </div>
   );
 }
